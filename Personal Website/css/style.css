@@ -1,0 +1,155 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#ffffff;
+}
+
+/** Global */
+.container{
+    width:95%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.container-2{
+    width:75%;
+    margin:auto;
+    overflow:hidden;
+    font-size:16px;
+}
+
+.container-2 a{
+    text-decoration:none;
+}
+
+.container-2 a:visited{
+    color:#0000EE;
+}
+
+/** Header */
+header{
+    background:#14213D;
+    color:#ffffff;
+    padding-top:15px;
+    min-height:40px;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:16px;
+}
+
+header a:hover{
+    color: #ceb5a7;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #name{
+    float:left;
+}
+
+header #name h2{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+
+/** Footer */
+footer {
+    padding:10px;
+    margin-top:10px;
+    color:#ffffff;
+    background-color:#14213D;
+    text-align:center;
+    height:125px;
+}
+
+footer img{
+    width:3%;
+    vertical-align:middle;
+    min-width: 50px;
+}
+
+footer li{
+    position:relative;
+    text-align:center;
+    display:inline;
+    padding: 0 5px 0 5px;
+}
+
+/** Profile */
+#profile {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:20%;
+}
+
+/** Projects */
+.project-box{
+    float:left;
+    width:50%
+}
+
+.clr{
+    clear:both;
+}
+
+/** Experience */
+.experience-box{
+    float:left;
+    width:50%
+}
+
+.experience-box h2{
+    display:inline;
+}
+
+#git-icon{
+    width:5%
+}
+
+#cal-hacks{
+    width:5%
+}
+
+#lambda{
+    width:5%
+}
+
+#pillarx{
+    width:5%
+}
+
+#convergent{
+    width:5%
+}
+
+#meteorstudio{
+    width:20%
+}
+
+#position{
+    font-style:italic;
+}
+
+
+
+
